@@ -6,7 +6,7 @@ import "./styles.css";
 function App() {
   return (
     <div className="App">
-      <Collapsible trigger="Personforsikringer">
+      <Collapsible trigger="Personforsikringer" open="true">
         <div className="table-container" role="table" aria-label="Destinations">
           <div className="flex-table header" role="rowgroup">
             <div className="flex-row first" role="columnheader">

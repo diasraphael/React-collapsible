@@ -3,9 +3,11 @@ span.Collapsible__trigger.is-open {
   background-color: #e9f8f5;
   display: block;
   padding: 20px;
+  cursor: pointer;
 }
 div {
   box-sizing: border-box;
+  font-family: Poppins;
 }
 .table-container {
   display: block;
