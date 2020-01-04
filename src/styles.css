@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
 span.Collapsible__trigger.is-closed,
 span.Collapsible__trigger.is-open {
   background-color: #e9f8f5;
