@@ -6,7 +6,14 @@ import "./styles.css";
 function App() {
   return (
     <div className="App">
-      <Collapsible trigger="Personforsikringer" open="true">
+      <Collapsible
+        tabIndex={0}
+        trigger="Personforsikringer"
+        open="true"
+        lazyRender
+        transitionTime={600}
+        easing={"cubic-bezier(0.175, 0.885, 0.32, 2.275)"}
+      >
         <div className="table-container" role="table" aria-label="Destinations">
           <div className="flex-table header" role="rowgroup">
             <div className="flex-row first" role="columnheader">

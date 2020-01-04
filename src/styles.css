@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
-
+span.Collapsible__trigger:focus {
+  outline: none !important;
+  box-shadow: 0 0 10px #719ece;
+}
 span.Collapsible__trigger.is-closed,
 span.Collapsible__trigger.is-open {
   background-color: #e9f8f5;
@@ -15,6 +18,7 @@ div {
   display: block;
   width: 100%;
   border: 5px solid teal;
+  margin-top: 7px;
 }
 .flag-icon {
   margin-right: 0.1em;
