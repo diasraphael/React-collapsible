@@ -7,6 +7,8 @@ import "./main.scss";
 function App() {
   return (
     <div className="App">
+      <h1>Mine livsforsikringer</h1>
+      <p>Oversikt fra 23.10.2019 - 14:22</p>
       <Collapsible
         tabIndex={0}
         trigger="Personforsikringer"
@@ -85,6 +87,10 @@ function App() {
           </div>
         </div>
       </Collapsible>
+      <h2 className="strong">
+        Har du eller dine vaert utsatt for syksom,ufor eller andre personskade?
+      </h2>
+      <button>Meld fra her</button>
     </div>
   );
 }
