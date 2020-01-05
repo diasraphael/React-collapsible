@@ -48,5 +48,8 @@ button{
   border-radius: 20px;
   padding:5px 25px;
 }
+.flex-row div{
+  height: 35px;
+}
 
 @import "components/collapsible";

@@ -3,7 +3,11 @@ import ReactDOM from "react-dom";
 import Collapsible from "react-collapsible";
 import "./styles.css";
 import "./main.scss";
-
+// Eufemia import
+import "dnb-ui-lib/style/basis";
+import "dnb-ui-lib/style/components";
+import "dnb-ui-lib/style/themes/ui";
+import Settings from "./settings.jsx";
 function App() {
   return (
     <div className="App">
@@ -13,7 +17,7 @@ function App() {
         tabIndex={0}
         trigger="Personforsikringer"
         open={true}
-        transitionTime={600}
+        transitionTime={400}
         easing={"cubic-bezier(0.175, 0.885, 0.32, 2.275)"}
       >
         <div className="table-container" role="table" aria-label="Destinations">
@@ -40,7 +44,7 @@ function App() {
               19 Sep, 1p.m.
             </div>
             <div className="flex-row" role="cell">
-              US$500
+              <Settings />
             </div>
           </div>
           <div className="flex-table row" role="rowgroup">
@@ -54,7 +58,7 @@ function App() {
               23 Sep, 1:30p.m.
             </div>
             <div className="flex-row" role="cell">
-              US$387
+              <Settings />
             </div>
           </div>
           <div className="flex-table row" role="rowgroup">
@@ -68,7 +72,7 @@ function App() {
               9 Sep, 2p.m.
             </div>
             <div className="flex-row" role="cell">
-              US$400
+              <Settings />
             </div>
           </div>
           <div className="flex-table row" role="rowgroup">
@@ -82,7 +86,7 @@ function App() {
               12 Sep, 2p.m.
             </div>
             <div className="flex-row" role="cell">
-              US$400
+              <Settings />
             </div>
           </div>
         </div>
