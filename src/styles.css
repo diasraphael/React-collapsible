@@ -1,12 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
-span.Collapsible__trigger.is-open {
-  box-shadow: 0 0 10px #719ece;
-}
+
 span.Collapsible__trigger.is-closed,
 span.Collapsible__trigger.is-open {
   background-color: #e9f8f5;
   display: block;
-  padding: 20px;
   cursor: pointer;
   outline: none !important;
 }
@@ -18,7 +15,6 @@ div {
   display: block;
   width: 100%;
   border: 5px solid teal;
-  margin-top: 7px;
 }
 .flag-icon {
   margin-right: 0.1em;
@@ -49,7 +45,7 @@ div {
 .flex-row {
   width: calc(100% / 4);
   text-align: center;
-  padding: 1.5em 1.5em;
+  padding: 0.75em 0.75em;
 }
 .rowspan {
   display: flex;

@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Collapsible from "react-collapsible";
 import "./styles.css";
+import "./main.scss";
 
 function App() {
   return (
@@ -9,8 +10,7 @@ function App() {
       <Collapsible
         tabIndex={0}
         trigger="Personforsikringer"
-        open="true"
-        lazyRender
+        open={true}
         transitionTime={600}
         easing={"cubic-bezier(0.175, 0.885, 0.32, 2.275)"}
       >
@@ -32,7 +32,7 @@ function App() {
               <span className="flag-icon flag-icon-gb" /> United Kingdom
             </div>
             <div className="flex-row" role="cell">
-              Stonehenge, Windsor and Bath with Pub Lunch{" "}
+              Stonehenge, Windsor{" "}
             </div>
             <div className="flex-row" role="cell">
               19 Sep, 1p.m.
@@ -46,7 +46,7 @@ function App() {
               <span className="flag-icon flag-icon-ca" /> Canada
             </div>
             <div className="flex-row" role="cell">
-              Vancouver to Victoria and Butchart Gardens Tour{" "}
+              Vancouver Tour{" "}
             </div>
             <div className="flex-row" role="cell">
               23 Sep, 1:30p.m.
@@ -74,7 +74,7 @@ function App() {
               <span className="flag-icon flag-icon-nz" /> New Zealand
             </div>
             <div className="flex-row" role="cell">
-              Milford Sound Coach & Cruise
+              Milford Sound Coach
             </div>
             <div className="flex-row" role="cell">
               12 Sep, 2p.m.
